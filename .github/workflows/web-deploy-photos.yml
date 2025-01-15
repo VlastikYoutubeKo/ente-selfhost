@@ -35,7 +35,7 @@ jobs:
               with:
                   accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
                   apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-                  projectName: ente-web-photos
+                  projectName: ente-local
                   branch: deploy/photos
                   directory: web/apps/photos/out
                   wranglerVersion: "3"

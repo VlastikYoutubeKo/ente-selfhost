@@ -30,7 +30,7 @@ jobs:
             - name: Build photos
               run: NEXT_PUBLIC_ENTE_ENDPOINT=${{ secrets.API_ENDPOINT_URL }} yarn build:photos
 
-            - name: Publish photos
+            - name: Publish photos bcuz yeah
               uses: cloudflare/pages-action@1
               with:
                   accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
